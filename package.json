@@ -1,0 +1,35 @@
+{
+  "name": "brace-expansion-parser",
+  "version": "1.0.0",
+  "description": "Parses strings with brace expansions",
+  "main": "lib/index.js",
+  "scripts": {
+    "pretest": "tsc -p .",
+    "test": "mocha",
+    "prepublish": "tsc -p ."
+  },
+  "files": [
+    "lib/*.{js,d.ts}"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eventualbuddha/brace-expansion-parser.git"
+  },
+  "keywords": [
+    "braces",
+    "expansion",
+    "parser"
+  ],
+  "author": "Brian Donovan <me@brian-donovan.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/eventualbuddha/brace-expansion-parser/issues"
+  },
+  "homepage": "https://github.com/eventualbuddha/brace-expansion-parser#readme",
+  "devDependencies": {
+    "@types/node": "^6.0.51",
+    "mocha": "^3.1.2",
+    "mocha-typescript": "^1.0.11",
+    "typescript": "^2.0.10"
+  }
+}

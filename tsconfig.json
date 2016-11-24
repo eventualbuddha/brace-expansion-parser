@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "module": "commonjs",
+    "typeRoots": ["node_modules/@types"],
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true
+  }
+}
