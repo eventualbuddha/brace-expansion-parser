@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/eventualbuddha/brace-expansion-parser#readme",
   "devDependencies": {
-    "@types/node": "^6.0.51",
+    "@types/node": "^7.0.8",
     "mocha": "^3.1.2",
     "mocha-typescript": "^1.0.11",
     "typescript": "^2.0.10"
