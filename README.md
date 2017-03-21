@@ -1,5 +1,7 @@
 # brace-expansion-parser
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventualbuddha/brace-expansion-parser.svg)](https://greenkeeper.io/)
+
 Parses strings with brace expansions, like this: `foo.{bar,baz}`.
 
 ## Install
